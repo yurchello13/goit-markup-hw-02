@@ -1,0 +1,22 @@
+:root {
+  --background-color-white: FFFFFF, 100 %;
+  --text-color-blue: 2196f3, 100 %;
+  --text-color-black: 212121, 100 %;
+  --text-color-grey: 757575, 100 %;
+  --text-color-white: FFFFFF, 100 %;
+  --text-color-grey-op60: FFFFFF, 60 %;
+  --button-background-blue: 2196f3, 100 %;
+  --button-background-grey: F5F4FA, 100 %;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: yellow;
+}
+
+header {
+  background-color: white;
+}
+.title {
+  background-color: var(--button-background-grey);
+}
