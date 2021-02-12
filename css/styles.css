@@ -1,22 +1,171 @@
 :root {
-  --background-color-white: FFFFFF, 100 %;
-  --text-color-blue: 2196f3, 100 %;
-  --text-color-black: 212121, 100 %;
-  --text-color-grey: 757575, 100 %;
-  --text-color-white: FFFFFF, 100 %;
-  --text-color-grey-op60: FFFFFF, 60 %;
-  --button-background-blue: 2196f3, 100 %;
-  --button-background-grey: F5F4FA, 100 %;
+  --background-color-white: #ffffff;
+  --background-color-grey: #2f303a;
+  --text-color-blue: #2196f3;
+  --text-color-black: #212121;
+  --text-color-grey: #757575;
+  --text-color-white: #ffffff;
+   
+  --text-color-white-op60: rgba(255, 255, 255, 0.6);
+  --button-background-grey: #f5f4fa;
+  --button-background-blue: #2196f3;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: yellow;
 }
 
 header {
-  background-color: white;
+  background-color: var(--background-color-white);
 }
+
 .title {
+  background-color: var(--background-color-grey);
+}
+.order {
+  background-color: var(--button-background-blue);
+}
+
+.team {
   background-color: var(--button-background-grey);
+}
+
+footer {
+  background-color: var(--background-color-grey);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.button {
+  background-color: var(--button-background-grey);
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 1.6;
+ text-align: center;
+ color: var(--text-color-black);
+
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  Font style: Bold;
+  font-size: 26px;
+  Line height: 1.2;
+  text-align: center;
+}
+.top{
+    color: var(--text-color-black);
+}
+.bottom{
+    color: var(--text-color-white);
+}
+.five-hudred{
+
+ Font style: Medium;
+ font-weight: 500;
+ Font size: 16px;
+ Line height: 1.6;
+ 
+}
+.buisness{
+ font-family: Roboto;
+ font-weight: 900;
+ font-style: normal;
+ font-weight: 900;
+ line-height: 1.4;
+ text-align: center;
+ color: var(--text-color-white);
+
+}
+.order{
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 1.9;
+ text-align: center;
+}
+.advantages{
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.2;
+text-align: left;
+}
+.advantages-explanation{
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.7;
+ text-align: left;
+ color: var(--text-color-grey);
+
+}
+.secondary-header{
+ font-size: 36px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 1.2;
+ text-align: center;
+}
+.staff{
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 1.2;
+ text-align: center;
+
+}
+.jobs{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.2;
+text-align: center;
+color: var(--text-color-grey);
+}
+.adress{
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.7;
+ text-align: left;
+ color: var(--text-color-white)
+}
+.contacts{
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.7;
+ text-align: left;
+ color: var(--text-color-white-op60);
+}
+.portfolio-title{
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 2;
+text-align: left;
+color: var(--text-color-black);
+}
+.blue{
+    color: var(--text-color-blue);
+}
+.studio-bottom{
+    color: var(--text-color-white);
+}
+.link-current.current{
+    color: var(--text-color-grey);
+}
+.current .link-current{
+    color: var(--text-color-black);
+}
+.link-current:hover{
+    color: var(--text-color-blue);
+}
+.application:focus{
+ color: var(--text-color-black);
 }
